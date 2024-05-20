@@ -12,4 +12,5 @@ urlpatterns = [
     path('update_info/', views.update_info, name='update_info'),
     path('photopage/<int:pk>', views.photoPage, name='photopage'),
     path('category/<str:foo>', views.category, name='category'),
+    path('search/', views.search, name='search'),
 ]
