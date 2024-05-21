@@ -32,6 +32,7 @@ INSTALLED_APPS = [
 
     'photostore',
     'cart',
+    'payment',
 ]
 
 MIDDLEWARE = [
